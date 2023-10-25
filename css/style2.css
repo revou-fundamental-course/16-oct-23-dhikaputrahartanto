@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+    
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-bottom: 1px solid darkslategrey;
+}
+
+.nav-logo img {
+    max-height: 65px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    padding: 0.1em;
+    border: 0.5px solid black;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.Greetings {
+    margin-left: 5em;
+    margin-top: 2em;
+    font-size: large;
+}
+
+.nav-item:hover {
+    background: grey;
+    color:black
+}
+
+.banner {
+    border-bottom: 1px solid black;
+    background-image: url(/Images/camp.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.headquaters {
+    padding: 3em;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius:50%;
+    text-align: center;
+}
+
+
+.circle2 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle3 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle4 {
+    height:150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.circle2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.circle3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.circle4 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hq-items {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: grey;
+    font-size: small;
+}
+
+.btn {
+    border-radius: 30px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 200;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background: gray;
+    color:black
+}
+
+.btn--primary hover {
+    background: rgb(117, 114, 114);
+}
+
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale="1.0">
+    <title>My Hardest Homework Ever 2!</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</html>
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="/Images/Mask.jpg" alt="">
+        </div>
+        <nav class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Profile</a>
+            <a class="nav-item">Portofolio</a>
+            <a href="message-us" class="nav-item">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="Greetings">
+            <h1>Hi My Name is Dhika again</h1>
+            <p>This is my second homework website but better (Kinda), Hope You Guys Are Like It!</p>
+        </div>
+    </section>
+    <section class="headquaters">
+        <h1> My Favorite Picture</h1>
+        <div class="hq-items">
+            <div class="circle">
+                <img src="/Images/Trains.jpg">
+                Trains
+            </div>
+            <div class="circle2">
+                <img src="/Images/love.jpg">
+                Loves
+            </div>
+            <div class="circle3">
+                <img src="/Images/Sky mountains.jpg">
+                Sky Mountains
+            </div>
+            <div class="circle4">
+                <img src="/Images/Sakura tree.jpg">
+                Sakura Tree
+            </div>
+        </div>
+        <h1>Message Us</h1>
+    </section>
+    <section id="contact-us" class="form">
+        <div class="form-left"></div>
+             <form name="message-form" onsubmit="return validateForm()">
+                <table>
+                <tr>
+                    <td>Name : <span id="sender-full-name"></span></td>
+                    <td>
+                        <input name="full-name" type="text" placeholder="Name Here">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth : <span id="sender-birth-date"></span></td>
+                    <td>
+                         <input type="date" name="birth-date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender : <span id="sender-gender"></span></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" />
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="female" />
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Message : <span id="sender-messages"></span></td>
+                    <td>
+                        <textarea placeholder=""name="messages" rows="6" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Info :</td>
+                    <td>
+                        <textarea name="" rows="8" cols="70"></textarea>
+                    </td>
+                </tr>
+                </table>
+             </form>
+         </div>
+         <div class="form-right"></div>
+    </section>
+    <button class="btn btn--primary btn--block">
+        <input type="submit" value="Submit" />
+    </button>
+    <footer class="footer">
+        <center>
+            <p class="footer-text">Made By Dhika</p>
+        </center>
+    </footer>
+    <script src="/js/javascript.js"></script>
+</body>
